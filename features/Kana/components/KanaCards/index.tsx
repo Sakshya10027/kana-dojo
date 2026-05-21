@@ -2,12 +2,14 @@
 import { Fragment, useState } from 'react';
 import clsx from 'clsx';
 import Subset from './Subset';
+import SubsetNew from './SubsetNew';
 import { useClick } from '@/shared/hooks/generic/useAudio';
 import { cardBorderStyles } from '@/shared/utils/styles';
 import { ChevronUp } from 'lucide-react';
 
 const STORAGE_KEY = 'kana-hidden-subsets';
 const USE_NEW_KANA_BADGE_DESIGN = true;
+export const USE_NEW_KANA_ROW_DESIGN = true;
 
 type KanaCardsFilter = 'all' | 'hiragana' | 'katakana';
 
@@ -228,11 +230,19 @@ const KanaCards = ({ filter = 'all' }: { filter?: KanaCardsFilter }) => {
 
                         {/* Subset Content */}
                         {!subsetHidden && (
-                          <Subset
-                            sliceRange={subset.sliceRange}
-                            group={group.name}
-                            subgroup={subset.name}
-                          />
+                          USE_NEW_KANA_ROW_DESIGN ? (
+                            <SubsetNew
+                              sliceRange={subset.sliceRange}
+                              group={group.name}
+                              subgroup={subset.name}
+                            />
+                          ) : (
+                            <Subset
+                              sliceRange={subset.sliceRange}
+                              group={group.name}
+                              subgroup={subset.name}
+                            />
+                          )
                         )}
                       </div>
 
