@@ -392,11 +392,11 @@
     "character": "Joker"
   },
   {
-  "japanese": "ここからが本番だ",
-  "romaji": "Koko kara ga honban da",
-  "english": "The real challenge starts now.",
-  "game": "Monster Hunter series",
-  "character": "Guild Handler lines"
+    "japanese": "ここからが本番だ",
+    "romaji": "Koko kara ga honban da",
+    "english": "The real challenge starts now.",
+    "game": "Monster Hunter series",
+    "character": "Guild Handler lines"
   },
   {
     "japanese": "まだまだだね",
@@ -406,11 +406,11 @@
     "character": "Ryoma Echizen"
   },
   {
-  "japanese": "俺は悪くねぇ！",
-  "romaji": "Ore wa warukunee!",
-  "english": "It's not my fault!",
-  "game": "Tales of the Abyss",
-  "character": "Luke fon Fabre"
+    "japanese": "俺は悪くねぇ！",
+    "romaji": "Ore wa warukunee!",
+    "english": "It's not my fault!",
+    "game": "Tales of the Abyss",
+    "character": "Luke fon Fabre"
   },
   {
     "japanese": "あなたは実験体です。感情は計算に含まれていません。",
@@ -420,10 +420,19 @@
     "character": "GLaDOS"
   },
   {
-  "japanese": "ケーキは嘘だ",
-  "romaji": "Kēki wa uso da",
-  "english": "The cake is a lie",
-  "game": "Portal",
-  "character": "GLaDOS"
-}
+    "japanese": "ケーキは嘘だ",
+    "romaji": "Kēki wa uso da",
+    "english": "The cake is a lie",
+    "game": "Portal",
+    "character": "GLaDOS"
+  },
+  {
+    "id": 109,
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "character": "Sheik",
+    "japanese": "時の流れは残酷なもの…",
+    "romaji": "Toki no nagare wa zankoku na mono...",
+    "translation": "O fluxo do tempo é sempre cruel...",
+    "difficulty": "Medium"
+  }
 ]
